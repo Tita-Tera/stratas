@@ -1,0 +1,116 @@
+.img-slider1 {
+    height: 55vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.img-slider2 {
+    height: 55vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/img/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.img-slider3 {
+    height: 55vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/img/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.action-msg {
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.7)), url("../img/image_03.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.action-card {
+    width: 50%;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 720px) {
+    .action-card {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.copy:hover {
+    color: aliceblue;
+}
+
+.dp-link:hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+h4, .btn {
+    color:#020255d2;
+    font-weight: bold;
+}
+
+
+
+
+/* ============ About STRATAS ============== */
+
+.no-margin {
+    margin: 0;
+}
+
+.page-nav {
+    height: 15vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../img/image_03.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.line-head {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.mission-vision {
+    background-color: #FFF; }
+    .mission-vision .mission {
+      padding: 50px; }
+      @media screen and (max-width: 940px) {
+        .mission-vision .mission, .vision, .objectives {
+          padding: 30px 20px; } }
+    .mission-vision .mv-det {
+      margin: auto; }
+
+      img {
+        max-width: 100%; }
+
+ol li {
+    list-style-type: disc;
+}
+
+
+
+
