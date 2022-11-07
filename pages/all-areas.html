@@ -57,11 +57,15 @@
     
         </div>
         <div class="bottom-nav">
-            <nav class="navbar navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+                <div class="container-fluid px-4 px-lg-5">
+                  <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                
-                  <div class="container-fluid mx-4">
-                    <ul class="d-flex flex-row flex-wrap flex-xl-nowrap align-items-center justify-content-evenly">
-                      <li class="nav-item">
+                  <div class="collapse navbar-collapse row d-flex flex-row justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav col row d-flex flex-row align-items-center justify-content-center">
+                      <li class="nav-item col">
                         <div class="dropdown nav-link">
                             <button class="btn text-light dropdown-toggle" type="button" data-bs-toggle="dropdown">ABOUT STRATAS <span class="caret"></span></button>
                             <ul class="dropdown dropdown-menu mt-2 position-absolute">
@@ -73,7 +77,7 @@
                             </ul>
                         </div>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item col">
                         <div class="dropdown nav-link">
                             <button class="btn text-light dropdown-toggle" type="button" data-bs-toggle="dropdown">WHAT WE DO <span class="caret"></span></button>
                             <ul class="dropdown dropdown-menu mt-2 position-absolute">
@@ -93,7 +97,7 @@
                             <a href="../pages/publications.html" class="btn text-light">PUBLICATIONS</a>
                         </div>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item col">
                         <div class="dropdown nav-link">
                             <button class="btn text-light dropdown-toggle" type="button" data-bs-toggle="dropdown">TAKE ACTION <span class="caret"></span></button>
                             <ul class="dropdown dropdown-menu mt-2 position-absolute">
@@ -105,21 +109,23 @@
                             </ul>
                         </div>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item col">
                         <div class="nav-link">
                             <a href="../pages/events.html" class="btn text-light">EVENTS</a>
                         </div>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item col">
                         <div class="nav-link">
                             <a href="../pages/contact-us.html" class="btn text-light">CONTACT</a>
                         </div>
                       </li>
-                      <li class="nav-item d-none d-lg-block btn btn-sm w-25">
+                      <li class="nav-item  btn btn-sm w-25">
                         <a class="text-dark fw-bolder rounded btn-warning py-2 px-4" href="../pages/donate.html">DONATE</a>
                       </li>
                     </ul>
                   </div>
+                </div>
+              </nav>
         </div>
     </navbar>
 
@@ -137,72 +143,96 @@
         </div>
     </header>
 
-    <section class="container-fluid my-5">
+    <section class="container my-5">
         <div class="row no-margin">
-            <div class="col-md-12 d-flex flex-wrap gap-4 justify-content-center">
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">HEALTH</button>
-                        </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>To promote and maintain health by promoting community health action for healthy living with focus on the preventioin of communicable diseases, especially HIV/AIDS, Malaria, TB, and STDS.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">SOCIAL</button>
-                        </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>To promote social well-being by narrowing the gap between the advantaged and disadvantaged. Fight against social exclusion, gender discrimination, adolescent crisis and deviation.</p>
+            <div class="accordion accordion-flush col-md-12 d-flex flex-wrap gap-4 justify-content-center" id="accordionFlushExample">
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingOne">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collaspseOne"> HEALTH
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>To promote and maintain health by promoting community health action for healthy living with focus on the preventioin of communicable diseases, especially HIV/AIDS, Malaria, TB, and STDS.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">LIVELIHOOD</button>
-                        </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>To stimulate and promote the development of surviving skills among vulnerable groups as a means of fighting misery and poverty.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">YOUTHS</button>
-                        </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>To equip the youths with life skills, and encourage creative thinking, a focus and productive lifestyle. Curb unwanted teenage pregnancy, drug and alcohol abuse.</p>
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingTwo">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collaspseTwo"> SOCIAL
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>To promote social well-being by narrowing the gap between the advantaged and disadvantaged. Fight against social exclusion, gender discrimination, adolescent crisis and deviation.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">OVC</button>
-                        </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>To provide economic and health needs of disadvantaged older people through income generating projects and home based care.</p>
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingThree">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collaspseThree"> LIVELIHOOD
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>To stimulate and promote the development of surviving skills among vulnerable groups as a means of fighting misery and poverty.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-5 card-group rounded mb-4">
-                    <div class="card border-5 shadow-sm">
-                        <div class="card-header">
-                            <button class="btn text-warning lead fs-4">HIV/AIDS</button>
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingFour">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collaspseFour"> YOUTHS
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>To equip the youths with life skills, and encourage creative thinking, a focus and productive lifestyle. Curb unwanted teenage pregnancy, drug and alcohol abuse.</p>
+                            </div>
                         </div>
-                        <div class="card-img img-fluid"><img src="../assets/img/slider-3.jpg" alt=""></div>
-                        <div class="card-body text-center">
-                            <p>That youths and other vulnerable groups are not only adequately sensitized, but are also equipped with skills that will enable them put acquired knowledge into practice.</p>
+                    </div>
+                </div>
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingFive">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collaspseFive"> O.V.C
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>To provide economic and health needs of disadvantaged older people through income generating projects and home based care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item col-md-3 col-sm-5 card-group rounded mb-4">
+                    <h2 class="accordion-header card border-0" id="flush-headingSix">
+                        <button class="accordion-button collapsed fs-2 p-4 card-header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collaspseSix"> HIV/AIDS
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body py-1 px-3 m-0 border-5 shadow-lg">
+                            <div class="lead fw-bold my-3">STRATAS Goals:</div>
+                            <div class="card-img img-fluid "><img class="rounded" src="../assets/img/slider-3.jpg" alt=""></div>
+                            <div class="card-body text-center">
+                                <p>That youths and other vulnerable groups are not only adequately sensitized, but are also equipped with skills that will enable them put acquired knowledge into practice.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
