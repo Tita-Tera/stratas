@@ -1,3 +1,6 @@
+.nav, .bottom-nav {
+    height: fit-content !important;
+}
 .img-slider1 {
     height: 55vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/img/slider-1.jpg);
@@ -23,7 +26,7 @@
 }
 
 .action-msg {
-    height: 300px;
+    height: fit-content;
     background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.7)), url("../img/image_03.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -112,5 +115,20 @@ ol li {
 }
 
 
+/* .donate {
+    width: 80vw;
+    margin: 0 auto;
+} */
 
 
+.bg-gray {
+    background-color: rgba(17, 0, 255, 0.712);
+}
+
+.donate form input, select, textarea, option {
+    background-color: #ffffff !important;
+}
+
+.donate label {
+    font-weight: bold;
+}
